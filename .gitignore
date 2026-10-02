@@ -1,0 +1,54 @@
+# Environment variables / secrets
+.env
+**/.env
+*.env
+**/creds
+**/credentials*
+**/*secret*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Airflow
+airflow/logs/
+logs/
+airflow/__pycache__/
+airflow/.pytest_cache/
+
+# Raw / large datasets
+data/*.csv
+data/creds
+
+# Generated AI files
+ai/review_embeddings.parquet
+
+# Local dbt artifacts
+zomato/target/
+zomato/logs/
+zomato/dbt_packages/
+zomato/.user.yml
+zomato/.dbt/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+zomato/profiles.yml
+
+data/zomato-ai-data-engineering-curriculum.pptx
